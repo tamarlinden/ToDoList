@@ -1,0 +1,11 @@
+/[Bb]in/
+/[Oo]bj/
+*.user
+*.bak
+*.suo
+*.sln.docstates
+.vs/
+appsettings.Development.json 
+.env
+.env.local
+packages
