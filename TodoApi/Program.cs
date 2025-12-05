@@ -71,7 +71,7 @@ app.MapDelete("/tasks/{id}", async (int id, ToDoDbContext context) =>
     return Results.NoContent();
 });
 
-app.MapGet("./",()=>"AuthServer API: is running")
+app.MapGet("/",()=>"AuthServer API: is running")
 
 app.Run();
 
